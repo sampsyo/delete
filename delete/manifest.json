@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "DeLete",
+    "version": "1.0",
+    "description": "Uncrudify the new ACM Digital Library.",
+    "content_scripts": [{
+        "matches": ["*://dl.acm.org/*"],
+        "js": ["delete.js"]
+    }]
+}
